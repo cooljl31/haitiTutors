@@ -1,0 +1,20 @@
+<div class="col-md-4 blog-main box text-center">
+<div class="panel panel-info"><!-- Panel Info -->
+
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= article.title %></h3>
+    <p><%= article.body %></p>
+  </div>
+
+  <div class="panel-body"><!-- Panel Body -->
+    <div style="color: #3BB2D6;"><%= time_ago_in_words(article.created_at) %></div>
+    <br>
+
+    <div class="btn-group" role="group" aria-label="...">
+        <%= link_to 'Edit', edit_article_path(article), class: 'btn btn-default' %>
+        <%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger", remote: true %>
+    </div>
+  </div><!-- Panel Body -->
+
+</div><!-- Panel Info -->
+</div>
