@@ -11,8 +11,8 @@
     <br>
 
     <div class="btn-group" role="group" aria-label="...">
-        <%= link_to 'Edit', edit_article_path(article), class: 'btn btn-default' %>
-        <%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger", remote: true %>
+        <%= link_to t('forms.buttons.edit'), edit_article_path(article), class: 'btn btn-default' %>
+        <%= link_to t('forms.buttons.destroy'), article, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger", remote: true %>
     </div>
   </div><!-- Panel Body -->
 

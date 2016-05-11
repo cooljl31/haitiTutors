@@ -19,29 +19,28 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
+de:
   activerecord:
-    attributes:
-      article:
-        title: "Title"
-        body: "Body"
+   attributes:
+     article:
+       title: "Название"
+       body: "Текст"
   forms:
     messages:
-      notice: "Operation succeeded!"
+      notice: "Операция была успешно выполнена!"
     buttons:
-      edit: "Edit"
-      destroy: "Destroy"
-      submit: "Submit"
+     edit: "Редактировать"
+     submit: "Отправить"
   menu:
-    new_article: "Add an article"
+    new_article: "Добавить статью"
   articles:
     index:
-      title: "List of articles"
+      title: "Список статей"
     edit:
-      title: "Add article"
+      title: "Редактировать статью"
     new:
-      title: "New article"
+      title: "Добавить статью"
   languages:
-    lang: "Language"
-    ru: "Russian"
-    en: "English"
+    lang: "Язык"
+    ru: "Русский"
+    en: "Английский"

@@ -46,3 +46,4 @@ group :development do
 end
 
 gem 'bower-rails'
+gem 'rails-i18n'
